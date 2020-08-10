@@ -1,0 +1,89 @@
+= Pharma Question Service Docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+An Online Pharmacy Network Application
+
+GET QUESTION
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/question-get/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/question-get/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/question-get/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/question-get/response-body.adoc[]
+
+Response Fields:
+include::{snippets}/v1/question-get/response-fields.adoc[]
+
+NEW QUESTION
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/question-post/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/question-post/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/question-post/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/question-post/response-body.adoc[]
+
+Request Fields:
+include::{snippets}/v1/question-post/request-fields.adoc[]
+
+
+UPDATE QUESTION
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/question-put/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/question-put/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/question-put/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/question-put/response-body.adoc[]
+
+Request Fields:
+include::{snippets}/v1/question-put/request-fields.adoc[]
+
+
+DELETE QUESTION
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/question-delete/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/question-delete/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/question-delete/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/question-delete/response-body.adoc[]
+
+Request Fields:
+include::{snippets}/v1/question-delete/path-parameters.adoc[]
+
